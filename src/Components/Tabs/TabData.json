@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "title":"UI developer",
+        "date":"09-06-2023",
+        "duties":[
+            {
+                "desc":"lorem lipsum hello "
+            },
+             {
+                "desc":"lorem lipsum hello "
+            },
+             {
+                "desc":"lorem lipsum hello "
+            }
+        ]
+    },
+     {
+        "id":2,
+        "title":"Frontend developer",
+        "date":"09-06-2023",
+        "duties":[
+            {
+                "desc":"lorem lipsum hello "
+            },
+             {
+                "desc":"lorem lipsum hello "
+            },
+             {
+                "desc":"lorem lipsum hello "
+            }
+        ]
+    },
+     {
+        "id":3,
+        "title":"Backend developer",
+        "date":"09-06-2023",
+        "duties":[
+            {
+                "desc":"lorem lipsum hello "
+            },
+             {
+                "desc":"lorem lipsum hello "
+            },
+             {
+                "desc":"lorem lipsum hello "
+            }
+        ]
+    }
+]

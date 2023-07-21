@@ -1,0 +1,77 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    grid-template-rows: 250px 250px;
+}
+.mainImage{
+    width: 100%;
+    position: relative;
+}
+.mainLight{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(32,32,32,0.8);
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+}
+.lightImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.lightImageWrapper{
+    max-width: 800px;
+    width: 100%;
+    max-height: 700px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lightImageWrapper img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.closeIcon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+
+}
+.closeIcon svg{
+    width: 30px;
+    height: 30px;
+    stroke: #fff;
+}
+.leftArrow{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.rightArrow{
+    right: 0 !important;
+    transform: translateY(-50%);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+.rightArrow svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}
+.leftArrow svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}

@@ -1,0 +1,7 @@
+.menuItem{
+        display: grid;
+    width: 1166px;
+    margin: 30px auto;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 50px;
+}
